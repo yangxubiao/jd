@@ -1,0 +1,128 @@
+@mixin ta{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+$bg:#e83632;
+#app .product-body .floor4{
+   width:100%;
+   height:450px;
+   display:flex;
+  justify-content:space-between;
+  margin-bottom:30px;
+   .floor4-left{
+     width:350px;
+     height:450px;
+     padding:0 20px;
+     background:#fff;
+     .floor4-left-top a{
+       width:100%;
+       height:60px;
+       display:flex;
+       align-items:center;
+       h2{
+         color: #222;
+         font-weight: 500;
+       }
+       img{
+         width:23px;
+         height:23px;
+         margin: 20px 5px;
+       }
+       p{
+         color: #999;
+         font-size: 14px;
+       }
+     }
+     .floor4-left-center{
+        width:350px;height:180px;
+            }
+     .floor4-left-center img{
+        width:100%;
+       height:180px;
+       &:hover{
+         opacity:(0.8);
+       }
+     }
+     .floor4-left-bottom{
+       width:350px;height:180px;
+       display:flex;
+       justify-content:space-between;
+       margin-top:10px;
+       img{
+         &:hover{
+           opacity:(0.8);
+         }
+       }
+     }
+   }
+  .floor4-center{
+    width:350px;
+    height:450px;
+    padding:0 20px;
+    background:#fff;
+    .floor4-center-top a{
+      width:100%;
+      height:60px;
+      display:flex;
+      align-items:center;
+      h2{
+        color: #222;
+        font-weight: 500;
+      }
+      img{
+        width:23px;
+        height:23px;
+        margin: 20px 5px;
+      }
+      p{
+        color: #999;
+        font-size: 14px;
+      }
+    }
+    .floor4-center-middle{
+      width:350px;height:180px;
+    }
+    .floor4-center-middle img{
+      width:100%;
+      height:180px;
+      &:hover{
+        opacity:(0.8);
+      }
+    }
+    .floor4-center-bottom{
+      width:350px;height:180px;
+      display:flex;
+      justify-content:space-between;
+      margin-top:10px;
+      img{
+        &:hover{
+          opacity:(0.8);
+        }
+      }
+    }
+  }
+  .floor-right{
+    position:relative;
+    width:390px;
+    height:450px;
+    .class-bottom{
+      width:313px;
+      height:400px;
+      position:absolute;
+      top:21px;
+      left:40px;
+      background:#f0f3ef;
+    }
+    img{
+      position:absolute;
+      left:20px;
+      &:hover{
+        opacity:(0.8);
+      }
+    }
+    .class-bottom-item{
+      width:340px;
+      height:420px;
+      border:5px solid #000;
+      margin-top:21px;
+      margin-left:40px;
+    }
+  }
+}

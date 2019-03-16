@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+#register #register-top {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 0px 3px 4px #ddd; }
+  #register #register-top .register-item {
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto; }
+    #register #register-top .register-item li {
+      float: left;
+      width: 160px;
+      height: 100px;
+      box-sizing: border-box;
+      padding: 23px 0px; }
+      #register #register-top .register-item li a {
+        display: inline-block;
+        width: 160px;
+        height: 50px;
+        background: url("../img/base/registericon01.png") no-repeat 0px 0px; }
+      #register #register-top .register-item li h2 {
+        margin-top: 12px;
+        color: #333;
+        font-weight: 400; }
+    #register #register-top .register-item li:last-child {
+      float: right;
+      padding: 49px 0px; }
+      #register #register-top .register-item li:last-child a {
+        background: #fff;
+        display: inline;
+        color: #e22; }
+        #register #register-top .register-item li:last-child a:hover {
+          text-decoration: underline; }
+      #register #register-top .register-item li:last-child span {
+        color: #999; }
+
+#register #register-middle {
+  width: 1190px;
+  height: 680px;
+  border-bottom: 1px solid #f0f0f0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 70px; }
+  #register #register-middle .register-middle-register {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto; }
+    #register #register-middle .register-middle-register ul:after {
+      content: "";
+      display: block;
+      clear: both; }
+    #register #register-middle .register-middle-register ul li {
+      float: left;
+      margin-right: 13px; }
+    #register #register-middle .register-middle-register ul .register-middle-register-top {
+      height: 1.3rem;
+      width: 1.3rem;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+      text-align: center;
+      color: #ccc;
+      font-size: 12px;
+      line-height: 1.3rem; }
+    #register #register-middle .register-middle-register ul .register-active {
+      background: #3b4;
+      color: #fff; }
+    #register #register-middle .register-middle-register ul .register-middle-register-top-img {
+      width: 130px;
+      height: 13px;
+      background: url("../img/base/reg-icon.png") no-repeat 4px -96px;
+      margin-top: 5px;
+      margin-right: 13px; }
+    #register #register-middle .register-middle-register ul li:first-child {
+      margin-left: 10px; }
+    #register #register-middle .register-middle-register ul li:last-child {
+      margin-right: 0px; }
+  #register #register-middle .register-middle-register-font {
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 2px 0px; }
+    #register #register-middle .register-middle-register-font span {
+      color: #999;
+      font-size: 12px; }
+    #register #register-middle .register-middle-register-font span:nth-child(2) {
+      margin: 0px 103px; }
+  #register #register-middle #register-middle-register-bottom {
+    width: 100%;
+    height: 302px;
+    margin-top: 60px; }
+    #register #register-middle #register-middle-register-bottom ul li:after {
+      content: "";
+      display: block;
+      clear: both; }
+    #register #register-middle #register-middle-register-bottom ul li {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 30px; }
+      #register #register-middle #register-middle-register-bottom ul li a {
+        display: block;
+        width: 400px;
+        text-align: center;
+        line-height: 50px;
+        height: 50px;
+        border: 1px solid #dddddd;
+        box-sizing: border-box; }
+        #register #register-middle #register-middle-register-bottom ul li a input {
+          width: 70%;
+          height: 46px;
+          float: left;
+          border: 1px solid #dddddd;
+          text-indent: 1em;
+          color: #cccccc; }
+        #register #register-middle #register-middle-register-bottom ul li a div {
+          float: left;
+          height: 52px;
+          width: 29.5%;
+          text-align: center;
+          line-height: 52px;
+          color: #666; }
+    #register #register-middle #register-middle-register-bottom ul li:nth-child(2) a {
+      color: #222;
+      font-size: 14px; }
+      #register #register-middle #register-middle-register-bottom ul li:nth-child(2) a:hover {
+        border: 1px solid #222; }
+    #register #register-middle #register-middle-register-bottom ul li:nth-child(3) button {
+      color: #fff;
+      width: 400px;
+      font-size: 16px;
+      text-align: center;
+      line-height: 50px;
+      height: 50px;
+      outline: none;
+      border: 0px;
+      background: #e2231a; }
+      #register #register-middle #register-middle-register-bottom ul li:nth-child(3) button:hover {
+        background: #c81623; }
+    #register #register-middle #register-middle-register-bottom ul li:last-child {
+      width: 400px; }
+      #register #register-middle #register-middle-register-bottom ul li:last-child a {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+        color: #222;
+        text-align: center;
+        line-height: 40px;
+        border: 0;
+        float: left; }
+        #register #register-middle #register-middle-register-bottom ul li:last-child a div {
+          margin-top: 6px;
+          width: 26px;
+          height: 26px;
+          background: url("../img/base/reg-icon.png") no-repeat 0px -160px; }
+    #register #register-middle #register-middle-register-bottom ul li:last-child a:nth-child(2) {
+      float: right; }
+      #register #register-middle #register-middle-register-bottom ul li:last-child a:nth-child(2) div {
+        background: url("../img/base/reg-icon.png") no-repeat -39px -160px; }
+
+#register #register-bottom {
+  width: 1190px;
+  height: 100px;
+  margin: 0 auto; }
+  #register #register-bottom .register-bottom-top {
+    width: 930px;
+    margin: 0 auto;
+    padding: 25px 0px; }
+    #register #register-bottom .register-bottom-top a {
+      font-size: 12px;
+      color: #999; }
+      #register #register-bottom .register-bottom-top a:hover {
+        text-decoration: underline; }
+      #register #register-bottom .register-bottom-top a span {
+        padding: 0 10px; }
+  #register #register-bottom p {
+    width: 30rem;
+    margin: 0 auto;
+    color: #999;
+    font-size: 12px;
+    text-align: center; }

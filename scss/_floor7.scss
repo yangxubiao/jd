@@ -1,0 +1,126 @@
+#app .product-body .floor7 {
+  width: 100%;
+  height: 537px;
+  margin-bottom:30px;
+  img {
+    &:hover {
+      opacity: (0.8);
+    }
+  }
+  .floor7-title {
+    width: 100%;
+    height: 85px;
+    .floor7-title-parent {
+      width: 250px;
+      height: 45px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .floor7-title-item {
+        width: 3rem;
+        height: 0.2rem;
+        background: #222;
+      }
+      h2 {
+        font-weight: 200;
+        color: #222;
+        font-family: 'fzzzh', sans-serif;
+        text-shadow: 1px -0.5px 0px #222;
+      }
+    }
+  }
+  .floor7-item {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    .floor7-item-left {
+      width: 350px;
+      height: 450px;
+      padding: 0 20px;
+      background: #fff;
+      .floor7-left-top {
+        width: 100%;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        h2 {
+          color: #222;
+          font-weight: 500;
+        }
+        img {
+          width: 23px;
+          height: 23px;
+          margin: 20px 5px;
+        }
+        p {
+          color: #999;
+          font-size: 14px;
+        }
+      }
+    }
+    .floor7-item-right a {
+      margin-top: 5px;
+      width: 100%;
+      height: 180px;
+      display: flex;
+      justify-content: space-between;
+    }
+  .floor-center {
+    width: 350px;
+    height: 450px;
+    padding: 0 20px;
+    background: #fff;
+    margin-left:7px;
+    .floor-center-top {
+      display: flex;
+      width: 100%;
+      height: 80px;
+      align-items: center;
+      .floor-center-top-img {
+        width: 130px;
+        height: 43px;
+        border: 1px solid #ccc;
+      }
+      p {
+        font-size: 18px;
+        color: #333;
+        margin-left: 10px;
+      }
+    }
+    .floor-center-bottom a {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+  }
+  .floor-right {
+    width: 100%;
+    height: 450px;
+    position:relative;
+    .floor-right-box{
+      width:340px;
+      height:420px;
+      border:5px solid #000;
+      margin-top:21px;
+      margin-left:53px;
+    }
+    .floor-right-cover{
+      width:340px;
+      height:420px;
+      position:absolute;
+      left:36px;top:0px;
+      background:#f0f3ef;
+    }
+    img{
+      width:340px;
+      height:420px;
+      position:absolute;
+      left:36px;top:0px;
+    }
+  }
+ }
+}
