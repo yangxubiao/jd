@@ -1,0 +1,50 @@
+ //京东header Event
+ // 01.my_jd
+ #shortcut div.w ul.fr li:nth-child(6){
+  position:relative;
+  width:100%;
+  height:100%;
+  &:hover{
+      background:#fff;
+  }
+  [dataEvent='my_jd']{
+      display:none;
+      position:absolute;
+      top:30px;
+      left:0px;
+      height:10rem;
+      width:18rem;
+      background:#fff;
+      z-index:2;
+      [dataEvent='my_jd-top']{
+          width:100%;
+          height:6rem;
+          border-bottom:1px solid #f0f0f0;
+          box-sizing:border-box;
+          padding:2px 13px; 
+          [dataEvent='my_jd-top-left']{
+              float:left;
+              width:120px;
+          }
+        [dataEvent='my_jd-top-right']{
+            float:left;
+            width:130px;
+            div:first-child a{display:inline;margin-left:15px;}
+        }
+      }
+      [dataEvent='my_jd-bottom']{
+          width:100%;
+          height:4rem;
+          box-sizing:border-box;
+          padding:2px 10px;
+          [dataEvent='my_jd-bottom-left']{
+            float:left;
+            width:120px;
+          }
+          [dataEvent='my_jd-bottom-right']{
+            float:left;
+            width:120px;
+          }
+      }
+  }
+}

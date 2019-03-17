@@ -59,7 +59,7 @@
     width: 1190px;
     height: 475px;
     margin: 0 auto;
-    background: #950c63 url("../img/base/registerbottom01.jpg") no-repeat; }
+    background: #950c63 url("../img/base/loginbottom01.jpg") no-repeat; }
     #register #register-bottom .register-bottom-left {
       width: 346px;
       height: 438px;
@@ -97,7 +97,9 @@
             #register #register-bottom .register-bottom-left #register-bottom-left-bottom{
                 width:100%;
                 height:55%;
-                padding:30px 20px;
+                padding-top:30px;
+                padding-left:20px;
+                padding-right:20px;
               tbody td{
                  width:100%;
                  height:38px;
@@ -121,15 +123,23 @@
                    margin-bottom:20px;
                  } 
               }
-              tbody tr:first-child{
-                  margin-top:0px;
-              }
-              tbody tr:nth-child(2) td div{
-                background:url("../img/base/pwd-middle02.png") -47px 0px;
-              }
-              tbody tr:nth-child(2) td input {
-                margin-bottom:0px;
-              }
+              tbody tr:first-child p{
+                    margin-top:-12px;
+                   }
+                  
+              tbody tr:nth-child(2) td{
+                div{
+                     background:url("../img/base/pwd-middle02.png") -47px 0px;
+                     }
+                p{
+                  margin-top:6px;
+                 }
+                 input {
+                  margin-bottom:0px;
+                  }
+                 }
+            
+              
               tbody tr:nth-child(3) td a{
                   display:block;
                  font-size:12px;
@@ -202,7 +212,7 @@
              ul li:last-child{
                  float:right;
                 div{ 
-                    background:url("../img/base/regsiterbase05.png") no-repeat -103px -74px;
+                    background:url("../img/base/loginbase05.png") no-repeat -103px -74px;
                 }
                 span{
                     font-size:13px;
@@ -257,3 +267,9 @@
             line-height:40px;
           }
          }
+
+
+  // 事件的data-class
+  [dataClass="none"]{
+     display:none;
+  }

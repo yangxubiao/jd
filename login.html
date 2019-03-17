@@ -48,15 +48,14 @@
                        <td>
                            <div class="register-bottom-left-bottom-user">
                            </div>
-                           <input type="text" name="username" data-toggle="reg" placeholder="邮箱/用户名/已验证手机"> 
-                       </td>
+                           <input type="text" id="uname" name="username" data-toggle="reg" placeholder="邮箱/用户名/已验证手机"> 
+                           <p dataClass="none" >用户名最少4~8个字母或数字</p>                      </td>
                    </tr>
-                   <tr>
+                   <tr> 
                         <td>
-                            <div class="register-bottom-left-bottom-upwd">
- 
-                            </div>
-                            <input type="text" name="upwd" data-toggle="reg" placeholder="密码"> 
+                            <div class="register-bottom-left-bottom-upwd"></div>
+                            <input type="password" name="userupwd" id="upwd" data-toggle="reg" placeholder="密码"> 
+                            <p  dataClass="none" >密码最少4~16个字母或数字</p>
                         </td>
                     </tr>
                     <tr>
@@ -66,7 +65,7 @@
                         </tr>
                     <tr>
                          <td>
-                                <a href="javascript:;">登录</a>
+                                <a href="javascript:;"  data-toggle="login" >登录</a>
                         </td>
                      </tr>
                 </table>

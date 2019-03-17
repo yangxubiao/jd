@@ -7,23 +7,24 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="">
         用户名:<input type="text" name="uname" id="u"><br>
         密码<input type="password" name="upwd" id="p"><br>
-     <button onclick="get" >提交</button>
+        <button onclick="get" >提交</button>
+    </form>
     <script>
-       function get(){
            //XML 4 步区
-           var xhr=new XMLHttpRequest();
-           xhr.onreadystatechange=function(){
-               if(xhr.readyState==4 && xhr.status==200){
-                   var result=xhr.responseText;
-                   console.log(result);
-               }
-           }
-           xhr.open("post","http://127.0.0.1:3000/user/login",true);
-           var data=u.value
-           xhr.send()
-        }
+        //    var xhr=new XMLHttpRequest();
+        //    xhr.onreadystatechange=function(){
+        //        if(xhr.readyState==4 && xhr.status==200){
+        //            var result=xhr.responseText;
+        //            console.log(result);
+        //        }
+        //    }
+        //    xhr.open("post","http://127.0.0.1:3000/user/login",true);
+        //    var data=u.value
+        //    xhr.send()
+   //     }
     </script>
 </body>
 </html>
